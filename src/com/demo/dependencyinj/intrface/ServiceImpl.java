@@ -4,7 +4,6 @@ public class ServiceImpl implements Service {
 	@Override
 	public void inject(Client client) {
 		client.setService(this);
-		
 	}
 
 	@Override
