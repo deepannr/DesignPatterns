@@ -14,11 +14,11 @@ public class CarCache {
 	}
 	
 	public static void loadCarCache() {
-		Nano nano = new Nano();
+		BasicCar nano = new Nano();
 		nano.setId("1");
 		carMap.put(nano.getId(), nano);
 		
-		Ford ford = new Ford();
+		BasicCar ford = new Ford();
 		ford.setId("2");
 		carMap.put(ford.getId(), ford);
 	}
